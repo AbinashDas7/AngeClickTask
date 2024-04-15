@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Tests]">
+  <test name="Partial Update Booking Details Test(failed)">
+    <classes>
+      <class name="deleteBooking.DELETETestRunner">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- deleteBooking.DELETETestRunner -->
+      <class name="partialUpdate.PartialUpdateTestRunner">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- partialUpdate.PartialUpdateTestRunner -->
+      <class name="createNewBooking.POSTTestRunner">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- createNewBooking.POSTTestRunner -->
+      <class name="PingHealthCheck.PingHealthTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- PingHealthCheck.PingHealthTestRunner -->
+      <class name="getBookingDetails.GETTestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- getBookingDetails.GETTestRunner -->
+      <class name="updateBooking.UpdateBookingTestRunner">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- updateBooking.UpdateBookingTestRunner -->
+      <class name="getBookingID.getBookingIdTestRUnner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- getBookingID.getBookingIdTestRUnner -->
+    </classes>
+  </test> <!-- Partial Update Booking Details Test(failed) -->
+  <test name="Delete Booking Test(failed)">
+    <classes>
+      <class name="deleteBooking.DELETETestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- deleteBooking.DELETETestRunner -->
+      <class name="partialUpdate.PartialUpdateTestRunner">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- partialUpdate.PartialUpdateTestRunner -->
+      <class name="createNewBooking.POSTTestRunner">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- createNewBooking.POSTTestRunner -->
+      <class name="PingHealthCheck.PingHealthTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- PingHealthCheck.PingHealthTestRunner -->
+      <class name="getBookingDetails.GETTestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- getBookingDetails.GETTestRunner -->
+      <class name="updateBooking.UpdateBookingTestRunner">
+        <methods>
+          <include name="tearDownSuite"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="setUpSuite"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- updateBooking.UpdateBookingTestRunner -->
+      <class name="getBookingID.getBookingIdTestRUnner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- getBookingID.getBookingIdTestRUnner -->
+    </classes>
+  </test> <!-- Delete Booking Test(failed) -->
+</suite> <!-- Failed suite [API Tests] -->

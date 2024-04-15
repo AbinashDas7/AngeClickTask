@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-15T07:39:20Z" name="API Tests" finished-at="2024-04-15T07:39:33Z" duration-ms="13199">
+    <groups>
+      <group name="cucumber">
+        <method signature="getBookingIdTestRUnner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" name="runScenario" class="getBookingID.getBookingIdTestRUnner"/>
+        <method signature="GETTestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" name="runScenario" class="getBookingDetails.GETTestRunner"/>
+        <method signature="POSTTestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" name="runScenario" class="createNewBooking.POSTTestRunner"/>
+        <method signature="UpdateBookingTestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" name="runScenario" class="updateBooking.UpdateBookingTestRunner"/>
+        <method signature="PartialUpdateTestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" name="runScenario" class="partialUpdate.PartialUpdateTestRunner"/>
+        <method signature="DELETETestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" name="runScenario" class="deleteBooking.DELETETestRunner"/>
+        <method signature="PingHealthTestRunner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" name="runScenario" class="PingHealthCheck.PingHealthTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-15T07:39:20Z" name="GET Booking IDs Test" finished-at="2024-04-15T07:39:24Z" duration-ms="3720">
+      <class name="getBookingID.getBookingIdTestRUnner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:20Z" name="setUpClass" finished-at="2024-04-15T13:09:20Z" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@590dea35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:20Z" name="setUpClass" finished-at="2024-04-15T13:09:20Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:20Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:24Z" duration-ms="3479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve booking IDs with valid authentication"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Booking API Tests]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:24Z" name="tearDownClass" finished-at="2024-04-15T13:09:24Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- getBookingID.getBookingIdTestRUnner -->
+    </test> <!-- GET Booking IDs Test -->
+    <test started-at="2024-04-15T07:39:24Z" name="GET Booking Details Test" finished-at="2024-04-15T07:39:26Z" duration-ms="1919">
+      <class name="getBookingDetails.GETTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:24Z" name="setUpClass" finished-at="2024-04-15T13:09:24Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6550ce46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:24Z" name="setUpClass" finished-at="2024-04-15T13:09:24Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:26Z" duration-ms="1887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Retrieve details of a specific booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Retrieve Booking Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:26Z" name="tearDownClass" finished-at="2024-04-15T13:09:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- getBookingDetails.GETTestRunner -->
+    </test> <!-- GET Booking Details Test -->
+    <test started-at="2024-04-15T07:39:26Z" name="Create new Booking Test" finished-at="2024-04-15T07:39:28Z" duration-ms="1935">
+      <class name="createNewBooking.POSTTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:26Z" name="setUpClass" finished-at="2024-04-15T13:09:26Z" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69f69078]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:26Z" name="setUpClass" finished-at="2024-04-15T13:09:26Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:28Z" duration-ms="1645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new booking in the API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Create a new booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:28Z" name="tearDownClass" finished-at="2024-04-15T13:09:28Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- createNewBooking.POSTTestRunner -->
+    </test> <!-- Create new Booking Test -->
+    <test started-at="2024-04-15T07:39:28Z" name="Update Booking Details Test" finished-at="2024-04-15T07:39:29Z" duration-ms="1451">
+      <class name="updateBooking.UpdateBookingTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:28Z" name="setUpClass" finished-at="2024-04-15T13:09:28Z" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13b29b34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:28Z" name="setUpClass" finished-at="2024-04-15T13:09:28Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:28Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:29Z" duration-ms="1342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update an existing booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Update Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:29Z" name="tearDownClass" finished-at="2024-04-15T13:09:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- updateBooking.UpdateBookingTestRunner -->
+    </test> <!-- Update Booking Details Test -->
+    <test started-at="2024-04-15T07:39:30Z" name="Partial Update Booking Details Test" finished-at="2024-04-15T07:39:31Z" duration-ms="1282">
+      <class name="partialUpdate.PartialUpdateTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:30Z" name="setUpClass" finished-at="2024-04-15T13:09:30Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25589735]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:30Z" name="setUpClass" finished-at="2024-04-15T13:09:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:31Z" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update a current booking with a partial payload"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Partial Update Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:31Z" name="tearDownClass" finished-at="2024-04-15T13:09:31Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- partialUpdate.PartialUpdateTestRunner -->
+    </test> <!-- Partial Update Booking Details Test -->
+    <test started-at="2024-04-15T07:39:31Z" name="Delete Booking Test" finished-at="2024-04-15T07:39:32Z" duration-ms="1269">
+      <class name="deleteBooking.DELETETestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:31Z" name="setUpClass" finished-at="2024-04-15T13:09:31Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46994f26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:31Z" name="setUpClass" finished-at="2024-04-15T13:09:31Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:31Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:32Z" duration-ms="1249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a booking by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Delete a Booking]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:32Z" name="tearDownClass" finished-at="2024-04-15T13:09:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- deleteBooking.DELETETestRunner -->
+    </test> <!-- Delete Booking Test -->
+    <test started-at="2024-04-15T07:39:32Z" name="Ping Health Check Test" finished-at="2024-04-15T07:39:33Z" duration-ms="1289">
+      <class name="getBookingID.getBookingIdTestRUnner">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:20Z" name="setUpSuite" finished-at="2024-04-15T13:09:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:getBookingID.getBookingIdTestRUnner@6d763516]" started-at="2024-04-15T13:09:33Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:getBookingDetails.GETTestRunner@6cf0e0ba]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:createNewBooking.POSTTestRunner@f6efaab]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:updateBooking.UpdateBookingTestRunner@55b699ef]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:partialUpdate.PartialUpdateTestRunner@313ac989]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:deleteBooking.DELETETestRunner@5c6648b0]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:34Z" name="tearDownSuite" finished-at="2024-04-15T13:09:34Z" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- getBookingID.getBookingIdTestRUnner -->
+      <class name="PingHealthCheck.PingHealthTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:32Z" name="setUpClass" finished-at="2024-04-15T13:09:32Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1bb172dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:32Z" name="setUpClass" finished-at="2024-04-15T13:09:32Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-15T13:09:33Z" duration-ms="1275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Ping Health Check"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Ping Health Check]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:PingHealthCheck.PingHealthTestRunner@4c583ecf]" started-at="2024-04-15T13:09:33Z" name="tearDownClass" finished-at="2024-04-15T13:09:33Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- PingHealthCheck.PingHealthTestRunner -->
+    </test> <!-- Ping Health Check Test -->
+  </suite> <!-- API Tests -->
+</testng-results>

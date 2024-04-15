@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Tests">
+    <test name="GET Booking IDs Test">
+        <classes>
+            <class name="getBookingID.getBookingIdTestRUnner"/> 
+        </classes>
+    </test>
+    <test name="GET Booking Details Test">
+        <classes>
+            <class name="getBookingDetails.GETTestRunner"/> 
+        </classes>
+    </test>
+    <test name="Create new Booking Test">
+        <classes>
+            <class name="createNewBooking.POSTTestRunner"/> 
+        </classes>
+    </test>
+    <test name="Update Booking Details Test">
+        <classes>
+            <class name="updateBooking.UpdateBookingTestRunner"/> 
+        </classes>
+    </test>
+    <test name="Partial Update Booking Details Test">
+        <classes>
+            <class name="partialUpdate.PartialUpdateTestRunner"/> 
+        </classes>
+    </test>
+    <test name="Delete Booking Test">
+        <classes>
+            <class name="deleteBooking.DELETETestRunner"/> 
+        </classes>
+    </test>
+    <test name="Ping Health Check Test">
+        <classes>
+            <class name="PingHealthCheck.PingHealthTestRunner"/> 
+        </classes>
+    </test>
+</suite>
